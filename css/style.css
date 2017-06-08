@@ -41,6 +41,7 @@ span {
     display: inline;
     padding: 10px 10px;
     position: static;
+    cursor: pointer;
 }
 
 #box {
@@ -71,5 +72,6 @@ button {
     font-size: 1em;
     background-color: #ffad41;
     border: 1px solid #ffad41;
+    cursor: pointer;
 }
 /* Style dla przycisku STOP */
