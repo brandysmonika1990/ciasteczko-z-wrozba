@@ -11,10 +11,19 @@ var buttonCookie3 = document.querySelector('#cookie3');
 buttonCookie3.addEventListener('click', showText, false);
 
 // Tablica z życzeniami z ciasteczka
-var wish = ['Prawda leży pośrodku – może dlatego wszystkim zawadza.', 'Wiara to myśl, która śpi.', 'Gdzie wszyscy wiedzą, że tego nie da się zrobić przyjdzie ktoś, kto tego nie wie i to zrobi.', 'Jeśli nie chce Ci się robić nic dla siebie, zrób coś dla innych.', 'Śmiech oddala strach jak wiatr mgłę.', 'Każdy jest architektem swojego losu.', 'Niemożliwym jest, aby uszczęśliwić wszystkich. Najpierw uszczęśliw samego siebie.', 'Bądź cierpliwy! Wielkiego Muru nie zbudowano w jeden dzień.'];
+var wish = ['Co tanio wychodzi, drogo wraca.', 
+            'Wiara to myśl, która śpi.', 
+            'Bez odwagi nie zostaniesz dowódcą.', 
+            'Miłości i kataru nie da się ukryć.', 
+            'Śmiech oddala strach jak wiatr mgłę.', 
+            'Każdy jest architektem swojego losu.', 
+            'Co się odwlecze to nie będzie szybciej.', 
+            'Możesz chwilowo odetchnąć od kłopotów.',
+            'Ciesz się każdym dniem.',
+            'Masz błyskotliwy umysł.'];
 
 // Losowe wybranie z tablicy życzenia
-var rand = Math.floor(Math.random() * 7);
+var rand = Math.floor(Math.random() * 9);
 
 
 function showText(e) {
