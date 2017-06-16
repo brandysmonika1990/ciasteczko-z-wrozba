@@ -18,12 +18,11 @@ var wish = ['Co tanio wychodzi, drogo wraca.',
             'Śmiech oddala strach jak wiatr mgłę.', 
             'Każdy jest architektem swojego losu.', 
             'Co się odwlecze to nie będzie szybciej.', 
-            'Możesz chwilowo odetchnąć od kłopotów.',
             'Ciesz się każdym dniem.',
             'Masz błyskotliwy umysł.'];
 
 // Losowe wybranie z tablicy życzenia
-var rand = Math.floor(Math.random() * 9);
+var rand = Math.floor(Math.random() * 8);
 
 
 function showText(e) {
